@@ -670,7 +670,7 @@ parameters:
         class: "current"
         state_class: "measurement"
         uom: "A"
-        scale: 0.01
+        scale: [0.01, 0.01, 0.1]
         rule: 2
         registers: [0x00BF]
         icon: "mdi:current-dc"
@@ -751,7 +751,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00A7]
         icon: "mdi:transmission-tower"
 
@@ -761,7 +761,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00A8]
         icon: "mdi:transmission-tower"
 
@@ -771,7 +771,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00A9]
         icon: "mdi:transmission-tower"
         attributes: [inverse]
@@ -802,7 +802,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00AA]
         icon: "mdi:transmission-tower"
 
@@ -812,7 +812,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00AB]
         icon: "mdi:transmission-tower"
 
@@ -822,7 +822,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00AC]
         icon: "mdi:transmission-tower"
 
@@ -852,7 +852,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00B0]
 
       - name: "Load L2 Power"
@@ -861,7 +861,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00B1]
 
       - name: "Load Power"
@@ -870,7 +870,7 @@ parameters:
         state_class: "measurement"
         uom: "W"
         rule: 2
-        scale: [1, 10] # out of date docs
+        scale: [1, 10, 10] # out of date docs
         registers: [0x00B2]
 
       - name: "Load L1 Current"
